@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run export"
   publish = "out"
 
 [build.environment]
@@ -22,3 +22,4 @@
   for = "/downloads/*"
   [headers.values]
     Content-Disposition = "attachment"
+
