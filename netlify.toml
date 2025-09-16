@@ -1,3 +1,4 @@
+# Build configuration for Next.js App Router with static export
 [build]
   command = "npm run build"
   publish = "out"
