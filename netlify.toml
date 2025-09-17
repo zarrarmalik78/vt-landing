@@ -1,9 +1,11 @@
+# Build configuration for Next.js App Router with static export
 [build]
-  command = "npm run export"
+  command = "npm run build"
   publish = "out"
 
 [build.environment]
   NODE_VERSION = "18"
+  NEXT_TELEMETRY_DISABLED = "1"
 
 [[redirects]]
   from = "/downloads/*"
@@ -22,4 +24,3 @@
   for = "/downloads/*"
   [headers.values]
     Content-Disposition = "attachment"
-
