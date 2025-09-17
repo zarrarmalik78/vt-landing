@@ -79,7 +79,7 @@ const DownloadSection = () => {
               viewport={{ once: true }}
             >
               <motion.a
-                href="https://github.com/zarrarmalik78/vt-landing/raw/main/public/downloads/VapeTrax_Setup_1.6.11.exe"
+                href="https://github.com/zarrarmalik78/vt-landing/releases/download/v1.6.11/VapeTrax_Setup_1.6.11.exe"
                 download="VapeTrax_Setup_1.6.11.exe"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
