@@ -79,8 +79,8 @@ const DownloadSection = () => {
               viewport={{ once: true }}
             >
               <motion.a
-                href="https://github.com/zarrarmalik78/vt-landing/releases/download/v1.6.11/VapeTrax_Setup_1.6.11.exe"
-                download="VapeTrax_Setup_1.6.11.exe"
+                href="https://github.com/zarrarmalik78/vt-landing/releases/download/v1.6.12/VapeTrax_Setup_1.6.12.exe"
+                download="VapeTrax_Setup_1.6.12.exe"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center space-x-4 bg-white text-primary-600 px-8 py-4 rounded-2xl font-semibold text-lg shadow-2xl hover:shadow-3xl transition-all duration-300"
@@ -88,7 +88,7 @@ const DownloadSection = () => {
                 <Download size={28} />
                 <div className="text-left">
                   <div>Download VapeTrax v1.6.11</div>
-                  <div className="text-sm opacity-70">Free - 200MB</div>
+                  <div className="text-sm opacity-70">Free - 50MB</div>
                 </div>
               </motion.a>
             </motion.div>
